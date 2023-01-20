@@ -34,6 +34,14 @@ tooling:
     user: root
   xdebug-off:
     service: appserver
-    description: CUSTOM Disable xdebug for nginx.
+    description: Disable xdebug for nginx.
     cmd: rm /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini && pkill -o -USR2 php-fpm && echo "Disabling xdebug"
     user: root
+  phpcs:
+    service: appserver
+    description: Runs phpcs and checks drupal coding standards.
+    cmd: phpcs --standard="Drupal,DrupalPractice" -n --extensions="php,module,install,theme" web/*/custom/ --ignore=web/themes/*/dist/,web/themes/*/Gulpfile.js,web/themes/*/node_modules/
+  phpcbf:
+    service: appserver
+    description: Runs phpcbf and and fixes minor issues with drupal coding standards.
+    cmd: phpcbf --standard="Drupal,DrupalPractice" -n --extensions="php,module,install,theme" web/*/custom/ --ignore=web/themes/*/dist/,web/themes/*/Gulpfile.js,web/themes/*/node_modules/
