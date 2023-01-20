@@ -12,13 +12,24 @@
         "composer/installers": "^1.9",
         "cweagans/composer-patches": "^1.7",
         "drupal/admin_toolbar": "^3.3",
+        "drupal/advagg": "^5.0",
+        "drupal/better_exposed_filters": "^6.0",
+        "drupal/config_ignore": "^2.3",
+        "drupal/config_split": "^1.9",
         "drupal/core-composer-scaffold": "^9.5",
         "drupal/core-project-message": "^9.5",
         "drupal/core-recommended": "^9.5",
+        "drupal/metatag": "^1.22",
+        "drupal/paragraphs": "^1.15",
+        "drupal/pathauto": "^1.11",
+        "drupal/redirect": "^1.8",
+        "drupal/seckit": "^2.0",
         "drush/drush": "^11.4"
     },
     "require-dev": {
-        "innoraft/drupal-quality-checker": "^1.0"
+        "drupal/devel": "^5.1",
+        "innoraft/drupal-quality-checker": "^1.0",
+        "kint-php/kint": "^5.0"
     },
     "conflict": {
         "drupal/drupal": "*"
