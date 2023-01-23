@@ -7,16 +7,19 @@ config:
   config:
     php: .lando/php.ini
 services:
-  phpmyadmin:
-    type: phpmyadmin
-    hosts:
-      - database
   mailhog:
     type: mailhog
     hogfrom:
       - appserver
   node:
     type: node
+  adminer:
+    type: compose
+    services:
+      image: dehy/adminer
+      command: /bin/s6-svscan /etc/services.d
+    depends_on:
+      - database
 tooling:
   drush:
     service: appserver

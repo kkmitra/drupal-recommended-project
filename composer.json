@@ -1,9 +1,9 @@
 {
-    "name": "drupal/recommended-project",
+    "name": "innoraft/recommended-project",
     "description": "Project template for Drupal 9 projects with a relocated document root",
     "license": "GPL-2.0-or-later",
     "type": "project",
-    "homepage": "https://www.drupal.org/project/drupal",
+    "homepage": "https://www.innoraft.com",
     "support": {
         "chat": "https://www.drupal.org/node/314178",
         "docs": "https://www.drupal.org/docs/user_guide/en/index.html"
@@ -37,7 +37,7 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "https://packages.drupal.org/8"
+            "url": "https://packages.drupal.org/9"
         }
     ],
     "minimum-stability": "stable",
