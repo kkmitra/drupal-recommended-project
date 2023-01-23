@@ -1,5 +1,5 @@
 {
-    "name": "innoraft/recommended-project",
+    "name": "innoraft/drupal-recommended-project",
     "description": "Project template for Drupal 9 projects with a relocated document root",
     "license": "GPL-2.0-or-later",
     "type": "project",
