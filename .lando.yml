@@ -7,7 +7,9 @@ config:
   xdebug: true
   database: mysql:8.0
   config:
+    database: .lando/mysql.conf
     php: .lando/php.ini
+    vhosts: .lando/vhost.conf
 
 services:
   database:
@@ -33,6 +35,9 @@ services:
       command: /bin/s6-svscan /etc/services.d
     depends_on:
       - database
+  cache:
+    type: memcached:1.5.12
+    mem: 748
 
 tooling:
   drush:
