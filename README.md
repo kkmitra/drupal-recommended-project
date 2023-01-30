@@ -1,4 +1,4 @@
-# Drupal Code Quality Checker
+# Drupal Recommended Project template
 ---
 
 ## Overview
@@ -39,7 +39,7 @@ drush:
       DRUSH_OPTIONS_URI: "https://drupal-starter-project.lndo.site"
 ```
 
-After change the .lando.yml you can run - 
+After changing the .lando.yml you can run - 
 
 ```
 lando start
