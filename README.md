@@ -66,3 +66,9 @@ This project tempalte uses lando for setting up drupal site.
 
 - lando tooling has already being added so `lando phpcs` & `lando phpcbf` can be use for using phpcs & phpcbf tools.
 - In order to integrate phpcs & phpcbf with vscode i.e. to use Format file on save or linting drupal coding standards you can use two extensions [phpcs](https://marketplace.visualstudio.com/items?itemName=shevaua.phpcs) & [phpcbf](https://marketplace.visualstudio.com/items?itemName=persoderlind.vscode-phpcbf). Settings for these extensions are being added in the project.
+
+
+
+## Recommended modules
+
+- [drupal/admin_audit_trail](https://www.drupal.org/project/admin_audit_trail) - This module track logs of specific events that you'd like to review. The events performed by the users (using the forms) are saved in the database and can be viewed on the page admin/reports/audit-trail.
