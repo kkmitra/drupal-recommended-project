@@ -9,7 +9,7 @@ This project template provides a starter kit for managing your site dependencies
 ## Requirements
 
 - Composer - You can download composer from [here](https://getcomposer.org/download/)
-- Lando - You can follow the instructions for downloading lando from [here](https://docs.lando.dev/getting-started/installation.html).
+- Lando (v3.11) - You can follow the instructions for downloading lando from [here](https://docs.lando.dev/getting-started/installation.html).
 
 ## Usage
 
