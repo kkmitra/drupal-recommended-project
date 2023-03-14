@@ -25,7 +25,7 @@ services:
     hogfrom:
       - appserver
   node:
-    type: node:14
+    type: node:18
     build_as_root:
       - npm install -g gulp-cli gulp
   adminer:
@@ -46,9 +46,9 @@ tooling:
     env:
       DRUSH_OPTIONS_URI: "https://drupal-starter-project.lndo.site"
   node:
-    service: appserver
+    service: node
   npm:
-    service: appserver
+    service: node
   xdebug-on:
     service: appserver
     description: Enable xdebug for nginx.
