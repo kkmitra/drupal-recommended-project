@@ -16,9 +16,11 @@
         "drupal/better_exposed_filters": "^6.0",
         "drupal/config_ignore": "^2.3",
         "drupal/config_split": "^1.9",
+        "drupal/console": "^1.9",
         "drupal/core-composer-scaffold": "^9.5",
         "drupal/core-project-message": "^9.5",
         "drupal/core-recommended": "^9.5",
+        "drupal/memcache": "^2.5",
         "drupal/metatag": "^1.22",
         "drupal/paragraphs": "^1.15",
         "drupal/pathauto": "^1.11",
@@ -50,7 +52,8 @@
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "cweagans/composer-patches": true,
             "phpro/grumphp": true,
-            "ergebnis/composer-normalize": true
+            "ergebnis/composer-normalize": true,
+            "drupal/console-extend-plugin": true
         },
         "sort-packages": true
     },

@@ -45,6 +45,8 @@ tooling:
     cmd: vendor/drush/drush/drush
     env:
       DRUSH_OPTIONS_URI: "https://drupal-starter-project.lndo.site"
+  drupal:
+    service: appserver
   node:
     service: appserver
   npm:

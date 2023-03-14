@@ -1,0 +1,62 @@
+name: Demo profile
+type: profile
+description: 'Description of your profile.'
+core_version_requirement: '^8.8 || ^9'
+
+# Modules to install to support the profile.
+install:
+  - admin_toolbar
+  - admin_toolbar_tools
+  - automated_cron
+  - big_pipe
+  - block
+  - block_content
+  - breakpoint
+  - ckeditor5
+  - comment
+  - config
+  - config_filter
+  - config_ignore
+  - config_split
+  - contact
+  - contextual
+  - datetime
+  - dblog
+  - dynamic_page_cache
+  - editor
+  - entity_reference_revisions
+  - field
+  - field_ui
+  - file
+  - filter
+  - help
+  - history
+  - image
+  - link
+  - menu_link_content
+  - menu_ui
+  - mysql
+  - node
+  - options
+  - page_cache
+  - path
+  - path_alias
+  - search
+  - shortcut
+  - system
+  - taxonomy
+  - text
+  - toolbar
+  - tour
+  - update
+  - user
+  - views_ui
+  - views
+  - paragraphs
+
+# List any themes that should be installed as part of the profile installation.
+# Note that this will not set any theme as the default theme.
+themes:
+  - olivero
+  - claro
+  
