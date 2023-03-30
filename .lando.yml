@@ -1,5 +1,5 @@
 name: drupal-starter-project
-recipe: drupal9
+recipe: drupal10
 
 config:
   webroot: web
@@ -16,7 +16,7 @@ services:
     type: mysql:8.0
   appserver:
     xdebug: true
-    type: php:8.1
+    type: php:8.2
     composer_version: 2-latest
   mailhog:
     scanner: false
